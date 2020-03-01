@@ -1,0 +1,97 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+% \usepackage{NotoSansSC_external}
+% \usepackage{NotoSerifCJKsc_external}
+% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{储~~~~子~~~~悦}
+
+\basicInfo{
+  \email{zero-cooper@foxmail.com} \textperiodcentered\ 
+  \phone{(+86) 177-510-34681} \textperiodcentered\ 
+  \linkedin[Zero Cooper]{www.linkedin.com/in/zerocooper}}
+
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{南京航空航天大学}, 江苏，南京}{2014 -- 2018}
+\textit{本科毕业生}\ 自动化专业
+
+\datedsubsection{\textbf{University of Edinburgh}, Edinburgh，UK}{2018 -- 2019}
+\textit{在读研究生}\ 人工智能专业
+
+\section{\faUsers\ 实习/项目经历}
+\datedsubsection{\textbf{中国石化仪征化纤股份有限责任公司}，仪征}{2017年6月 -- 2017年8月}
+\role{技术助理}{实习}
+\begin{itemize}
+  \item 学习了分布式离散系统(DSC)的原理及其组态
+  \item 部分参与了DSC组态的编程，包括中央控制室I/O与工作室标准状态的编程
+  \item 在中央控制室中对PET生产过程进行实时监控
+\end{itemize}
+
+\datedsubsection{\textbf{基于树莓派的智能互联网监控系统设计}}{2017年11月 -- 2018年1月}
+\role{Raspberry Pi, Python, opencv}{团队项目}
+\begin{onehalfspacing}
+智能远程监控系统中人脸识别部分的设计
+\begin{itemize}
+  \item 设计面向视屏流的人脸识别的基本算法，并通过Adaboost原理对原算法进行优化提升
+  \item 正脸识别率达90\%，响应时间降低了一半，弱化了系统对环境的依赖度
+
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{智能平衡车平台的开发}}{2017 年2月 -- 2018年6月}
+\role{校级资金支持项目，PID控制，Matlab}{团队项目}
+\begin{onehalfspacing}
+设计智能平衡车平台的控制算法
+\begin{itemize}
+  \item 理论上建立了智能平衡车的运动的数理方程，并利用二阶倒立摆的原理建立其控制关系
+  \item 建立了基于不同路面状态下的模糊逻辑表，并利用模糊PID控制对模糊逻辑表进行调参
+  \item 撰写了论文《小波分析在间断点检测与阈值消噪方面的应用》（待发表）
+\end{itemize}
+\end{onehalfspacing}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.45ex]
+\begin{itemize}[parsep=0.4ex]
+  \item 编程语言: C++ == C > Matlab > Python > \LaTeX > HTML > 汇编
+  \item 办公: 熟练的Microsoft Office使用者，包括Word, Excel, Powerpoint, Visio
+
+\end{itemize}
+
+\section{\faHeartO\ 获奖情况}
+\datedline{南京航空航天大学奖学金}{2014 \& 2015 \& 2016 \&2017 年}
+\datedline{南京航空航天大学青年物理学家竞标赛二等奖}{2017年}
+\datedline{上海模拟联合国大会杰出代表奖}{2016年}
+\datedline{南京航空航天大学自动化学院辩论赛最佳辩手}{2016年}
+\datedline{全国大学生英语能力竞赛二等奖}{2015年}
+\datedline{第12届中国模拟联合国大会荣誉提名奖}{2015年}
+
+\section{\faInfo\ 社会经历及其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.4ex]
+  \item \datedline{UMUNC2017西南分会GAUS体系学术指导}{2017 年}
+  \item \datedline{南京航空航天大学模拟联合国协会副会长（一等学生干部）}{2015 年}
+  \item 语言：英语-熟练（CET-4：581、CET-6：542、IELTS：6.5）
+
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
